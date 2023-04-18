@@ -9,8 +9,7 @@ const InfiniteScroll = () => {
   const [page, setPage] = useState(1);
   // const [isFetching, setIsFetching] = useState(false);
   const [isFetching, setIsFetching ] = useInfiniteScroll();
-
-  console.log('is fetching: ', isFetching)
+  
 
   const loadData = () =>{
     let url = "https://medrum.herokuapp.com/articles";
